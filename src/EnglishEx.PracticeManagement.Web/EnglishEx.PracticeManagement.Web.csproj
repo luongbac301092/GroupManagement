@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <UserSecretsId>A1CD619E-A374-4208-888B-42F3DC489F14</UserSecretsId>
+        <LangVersion>7.3</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.App" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\EnglishEx.PracticeManagement.Business\EnglishEx.PracticeManagement.Business.csproj" />
+        <ProjectReference Include="..\EnglishEx.Shared.StartupTasks\EnglishEx.Shared.StartupTasks.csproj" />
+        <ProjectReference Include="..\EnglishEx.PracticeManagement.Business.Impl\EnglishEx.PracticeManagement.Business.Impl.csproj" />
+        <ProjectReference Include="..\EnglishEx.PracticeManagement.Business\EnglishEx.PracticeManagement.Business.csproj" />
+        <ProjectReference Include="..\EnglishEx.PracticeManagement.Data\EnglishEx.PracticeManagement.Data.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\test.txt" />
+    </ItemGroup>
+
+</Project>
